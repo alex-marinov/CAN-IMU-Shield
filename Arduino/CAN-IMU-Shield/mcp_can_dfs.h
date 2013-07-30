@@ -292,6 +292,10 @@
 #define MCP_16MHz_5kBPS_CFG2 (0xbf)
 #define MCP_16MHz_5kBPS_CFG3 (0x07)
 
+// 20MHz
+#define MCP_20MHz_1000kBPS_CFG1 (0x00)
+#define MCP_20MHz_1000kBPS_CFG2 (0xA0)
+#define MCP_20MHz_1000kBPS_CFG3 (0x02)
 
 
 #define MCPDEBUG        (0)
@@ -328,6 +332,7 @@
 #define CANDEFAULTIDENT    (0x55CC)
 #define CANDEFAULTIDENTEXT (CAN_EXTID)
 
+// 16MHz
 #define CAN_5KBPS    1
 #define CAN_10KBPS   2
 #define CAN_20KBPS   3
@@ -340,6 +345,9 @@
 #define CAN_250KBPS  10
 #define CAN_500KBPS  11
 #define CAN_1000KBPS 12
+
+// 20MHz
+#define CAN_20MHz_1000KBPS 13
 
 #define CAN_OK         (0)
 #define CAN_FAILINIT   (1)
